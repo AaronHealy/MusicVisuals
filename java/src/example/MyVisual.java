@@ -12,7 +12,7 @@ public class MyVisual extends Visual
         size(1024, 500);
         
         // Use this to make fullscreen
-        //fullScreen();
+        fullScreen();
 
         // Use this to make fullscreen and use P3D for 3D graphics
         //fullScreen(P3D, SPAN); 
@@ -24,10 +24,10 @@ public class MyVisual extends Visual
                 
         // Call loadAudio to load an audio file to process 
         //loadAudio("heroplanet.mp3");   
-
+        loadAudio("TouchMe.mp3");
         
         // Call this instead to read audio from the microphone
-        startListening(); 
+        //startListening(); 
         
         wf = new WaveForm(this);
         abv = new AudioBandsVisual(this);
