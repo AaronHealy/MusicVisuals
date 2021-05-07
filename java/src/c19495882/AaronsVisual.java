@@ -5,10 +5,11 @@ import java.util.*;
 
 public class AaronsVisual extends Visual
 {
-    boolean twocubes = false;
     boolean sphere = false;
+    boolean triangle = false;
     Sphere av;
-    
+    Triangle tr;
+
 
     public void settings()
     {
@@ -22,7 +23,6 @@ public class AaronsVisual extends Visual
         if (key == ' ')
         {
             getAudioPlayer().cue(0);
-            getAudioPlayer().play();
             
         }
         if (key == '1')
@@ -32,8 +32,21 @@ public class AaronsVisual extends Visual
         }
         if (key == '2')
         {
+            getAudioPlayer().play();
+
+        }
+        if (key == '3')
+        {
             sphere = ! sphere;
+            triangle = false;
+          
             
+        }
+        if (key == '4')
+        {
+            triangle = ! triangle;
+            sphere = false;
+          
         }
     }
 
@@ -49,6 +62,7 @@ public class AaronsVisual extends Visual
         //getAp().play();
         //startListening(); 
         av = new Sphere(this);
+        tr = new Triangle(this);
         
     }
 
@@ -62,5 +76,9 @@ public class AaronsVisual extends Visual
     {
         av.render();
     } 
+    if (triangle)
+    {
+        tr.render();
+    }
 }
 }

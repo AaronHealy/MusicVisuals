@@ -22,7 +22,9 @@ public class Sphere
         av.noFill();
         av.lights();
         av.stroke(PApplet.map(av.getSmoothedAmplitude(), 0, 1, 0, 255), 255, 255);
+        av.beginCamera();
         av.camera(0, 0, 0, 0, 0, -1, 0, 1, 0);
+        av.endCamera();
         av.translate(0, 0, -250);
             
         
