@@ -27,7 +27,7 @@ public class Triangle
         for (float a = 0; a < 360; a+=10)  // for loop to rotate line in increments
         {   
             tr.pushMatrix();
-            if(angle<360)
+            if(angle<360) //if statement for effect in first 360 degrees
             {
                 tr.rotate(PApplet.radians(a)*PApplet.cos(PApplet.radians(angle)));
             }
