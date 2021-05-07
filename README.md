@@ -27,11 +27,16 @@ My assignment is controlled from numbered keys and space-bar.
 
 My assignment works around "AaronsVisual.java" which extends "Visual", in this file i set each of my visuals to be false so we can choose to view each as needed, by pressing the allocated keys for each visual.
 Every visual/class has a contructor for initializing objects, AaronsVisual is a part of each of these to link so I could use variables in other classes.
+
 ![An image](images/Constructor.png)
+
 Key pressed function is the settup for the controls of the visualizer.6 keys assigned in total.
+
 ![An image](images/KeyPressed.png)
+
 In AaronsVisual i loaded the song and calculated average amps and frequency bands for responses in my other classes. 
 The draw method also contains the renders from each corresponding class, so depends on which key is pressed AaronsVisual renders that design.
+
 ![An image](images/ifRender.png)
 
 # What I am most proud of in the assignment
@@ -40,6 +45,7 @@ In this assignment I am most proud of the visual named "Triangle", altough the v
 however I am still very proud of this visual and what I learned while making and adjusting it. First I created the basic necessities and then made a for loop to rotate the line is would be using.
 After this I made movement by changing the values of variables X&Y with sine. I then made the end points(circles) of the line by using ellipse and declaring the diameter(dia) to 20 in size.
 I then tried to add another ellipse to the end of each line however I could not get the code to work. After that I added an intro effect for the first 360 degrees of the design using an if statement.
+
 ![An image](images/CodeforT.png)
 
 # Markdown Tutorial
