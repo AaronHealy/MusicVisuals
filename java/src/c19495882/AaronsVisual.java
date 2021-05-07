@@ -8,8 +8,10 @@ public class AaronsVisual extends Visual
     //variables
     boolean sphere = false;
     boolean triangle = false;
+    boolean illusion = false;
     Sphere av;
     Triangle tr;
+    Illusion il;
 
     public void settings()
     {
@@ -40,6 +42,7 @@ public class AaronsVisual extends Visual
         {
             sphere = ! sphere;
             triangle = false;
+            illusion = false;
           
             
         }
@@ -47,6 +50,14 @@ public class AaronsVisual extends Visual
         {
             triangle = ! triangle;
             sphere = false;
+            illusion = false;
+          
+        }
+        if (key == '5')
+        {
+            illusion = ! illusion;
+            sphere = false;
+            triangle = false;
           
         }
     }
@@ -64,6 +75,7 @@ public class AaronsVisual extends Visual
         //startListening(); 
         av = new Sphere(this);
         tr = new Triangle(this);
+        il = new Illusion(this);
         
     }
 
@@ -80,6 +92,10 @@ public class AaronsVisual extends Visual
     if (triangle)
     {
         tr.render(); //if key pressed = triangle, use render from triangle
+    }
+    if (illusion)
+    {
+        il.render(); //if key pressed = Illusion, use render from illusion
     }
 }
 }
