@@ -12,6 +12,7 @@ My first visual consists of multiple shapes, all with different colours and size
 My second visual is some generated art using for loops to create a cool visual.
 The last of my visuals is an optical illusion, also created using for loops,which has a sphere in the centre that moves and interrupts the illusion. 
 The illusion also resembles a vinyl which is the first platform is heard this track on as a kid. 
+The assignment has a small bug which occurs when visual one is viewed, it centres the camera on visual one and after the other visuals are not viewable. 
 
 # Instructions
 My assignment is controlled from numbered keys and space-bar. 
@@ -35,19 +36,18 @@ Key pressed function is the settup for the controls of the visualizer.6 keys ass
 ![An image](images/KeyPressed.png)
 
 In AaronsVisual i loaded the song and calculated average amps and frequency bands for responses in my other classes. 
-The draw method also contains the renders from each corresponding class, so depends on which key is pressed AaronsVisual renders that design.
+The draw method also contains the renders from each corresponding class, so depending on which key is pressed AaronsVisual renders that design.
 
 ![An image](images/ifRender.png)
 
 # What I am most proud of in the assignment
 
 In this assignment I am most proud of the visual named "Triangle", altough the visual is not a triangle it is based on a more complex concept I was trying to implement and could not,
-however I am still very proud of this visual and what I learned while making and adjusting it. First I created the basic necessities and then made a for loop to rotate the line is would be using.
+however I am still very proud of this visual and what I learned while making and adjusting it. First I created the basic necessities and then made a for loop to rotate the line I would be using.
 After this I made movement by changing the values of variables X&Y with sine. I then made the end points(circles) of the line by using ellipse and declaring the diameter(dia) to 20 in size.
 I then tried to add another ellipse to the end of each line however I could not get the code to work. After that I added an intro effect for the first 360 degrees of the design using an if statement.
 
 ![An image](images/CodeforT.png)
-![An image](images/p8.png)
 # AaronsVisuals
 
 First Visual 
@@ -61,6 +61,9 @@ Second Visual
 Third Visual 
 
 ![An image](images/ThirdVisual.png)
+
+This is my youtube video:
+(https://www.youtube.com/watch?v=2mB8dj0Qtiw&ab_channel=AaronHealy)
 
 
 

@@ -68,7 +68,7 @@ public class AaronsVisual extends Visual
         setFrameSize(256);
 
         startMinim();
-        loadAudio("TouchMe.mp3");
+        loadAudio("NewOrder.mp3");
         //getAp().play();
         //startListening(); 
         av = new Sphere(this);
