@@ -27,7 +27,7 @@ public class Illusion {
         il.stroke(PApplet.map(il.getSmoothedAmplitude()* 15, 0, 1, 0, 255), 255, 255);
         il.popMatrix();
 
-        //pattern of ellipse
+        //pattern of line and ellipse
         il.translate(il.width/2f, il.height/2f);
         il.stroke(PApplet.map(il.getSmoothedAmplitude()* 1, 0, 1, 0, 255), 255, 255);
         for (float a=0; a<360; a+=22.5)
