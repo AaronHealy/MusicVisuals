@@ -5,11 +5,11 @@ import java.util.*;
 
 public class AaronsVisual extends Visual
 {
+    //variables
     boolean sphere = false;
     boolean triangle = false;
     Sphere av;
     Triangle tr;
-
 
     public void settings()
     {
@@ -18,6 +18,7 @@ public class AaronsVisual extends Visual
        
     }
 
+    //controls
     public void keyPressed()
     {
         if (key == ' ')
@@ -72,13 +73,13 @@ public class AaronsVisual extends Visual
         background(0);
         calculateAverageAmplitude();
         calculateFrequencyBands();
-    if (sphere)
+    if (sphere) //if key pressed = sphere, use render from sphere
     {
         av.render();
     } 
     if (triangle)
     {
-        tr.render();
+        tr.render(); //if key pressed = triangle, use render from triangle
     }
 }
 }
