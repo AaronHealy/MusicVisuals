@@ -6,7 +6,7 @@ Student Number: c19495882
 
 
 # Description of the assignment
-My assignment is a music visualizer with three different visuals, it is inspired by a song from 2002 by the name "Touch me - Dj Rui Da Silva".
+My assignment is a music visualizer with three different visuals, it is inspired by a song from 2002 by the name "Touch me - Dj Rui Da Silva". *This song was copyrighted and I used another public domain song for the youtube video*
 For this asasignment I wanted to create visuals that feel like they fit the kind of enviroment this music would be played in. 
 My first visual consists of multiple shapes, all with different colours and sizes that sync together is a satisfying manner. 
 My second visual is some generated art using for loops to create a cool visual.
