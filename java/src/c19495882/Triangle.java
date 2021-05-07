@@ -24,7 +24,7 @@ public class Triangle
         tr.translate(tr.width/2f, tr.height/2f); //make center screen
         tr.rotate(PApplet.radians(14+angle/3));
         tr.beginShape();
-        for (float a = 0; a < 360; a+=10)  // for loop to rotate in increments
+        for (float a = 0; a < 360; a+=10)  // for loop to rotate line in increments
         {   
             tr.pushMatrix();
             if(angle<360)
