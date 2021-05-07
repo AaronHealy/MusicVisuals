@@ -5,7 +5,6 @@ import java.util.*;
 
 public class AaronsVisual extends Visual
 {
-    //variables
     boolean sphere = false;
     boolean triangle = false;
     boolean illusion = false;
@@ -30,12 +29,11 @@ public class AaronsVisual extends Visual
         }
         if (key == '1')
         {
-            getAudioPlayer().pause();
-
+            getAudioPlayer().play();
         }
         if (key == '2')
-        {
-            getAudioPlayer().play();
+        {            
+            getAudioPlayer().pause();
 
         }
         if (key == '3')
